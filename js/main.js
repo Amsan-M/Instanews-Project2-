@@ -16,8 +16,8 @@ $('select').change(function () {
 
     beforeSend: function () {
       $('.loading').append('<img src=\'/images/ajax-loader.gif\' />').css({
-        "display": "flex",
-        "width": "100%"
+        'display': 'flex',
+        'width': '100%'
       });
     },
 
@@ -42,17 +42,11 @@ $('select').change(function () {
         }
         // console.log(data.results[i].multimedia);
 
-
       }
 
     },
 
-
-
   });
-
-
-
 
 })
 
@@ -65,7 +59,7 @@ $('select').change(function () {
 
     $('.logo').animate({
 
-      width: '19rem',
+      width: '15rem',
       height: 'auto',
     });
   } else {
@@ -73,7 +67,7 @@ $('select').change(function () {
     $('.logo').animate({
 
       width: '5rem',
-      // marginTop: '-5rem',
+      marginRight: '3rem',
       marginLeft: '0rem',
       height: 'auto',
 

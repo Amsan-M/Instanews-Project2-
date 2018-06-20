@@ -1,56 +1,45 @@
-
-.topstories{ 
-  
+.topstories {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-top:5%;
-    margin-bottom:5%;
-
-    a{
-        text-decoration:none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    a {
+        text-decoration: none;
     }
- } 
+}
 
- .newstitle{
-     height:35%;
-     height: 35%;
-     display: flex;
-     align-items: center;
- }
- p{
-    
-    background:rgba(0,0,0,0.6);
-    height: auto;
-    padding:1%;
- }
-
- 
-
-
- .gif-wrapper{
- 
-       
-    width: 100%;
-    justify-content: center;
-
-
-.loading{
+.newstitle {
+    height: 35%;
+    height: 35%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    background: rgba(0, 0, 0, 0.6);
+    height: auto;
+    padding: 1%;
+}
+
+.gif-wrapper {
     width: 100%;
     justify-content: center;
+    .loading {
+        display: flex;
+        width: 100%;
+        justify-content: center;
         img {
             display: flex;
             flex-wrap: wrap;
             width: 10%;
             height: 10%;
         }
+    }
+}
 
-}
-}
- 
- .stories{
- 
+.stories {
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -61,95 +50,67 @@
     display: flex;
     width: 100%;
     margin: 0px;
- } 
- 
- .stories a {
+}
+
+.stories a {
     color: #ffffff;
     font-size: 0.8rem;
     align-self: flex-end;
     width: 100%;
     text-align: left;
-    font-family: 'Open Sans';
-    // font-weight: light;
-    font-size:1rem;
- 
- }  
- 
- .newsbackground{
-    
-    width:100%;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:300px;
+    font-family: 'Open Sans'; // font-weight: light;
+    font-size: 1rem;
+}
+
+.newsbackground {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
- 
- }  
- 
+}
 
 //  Tablet
-
- @media screen and (min-width:600px){
- 
-     
-    .topstories{
+@media screen and (min-width:600px) {
+    .topstories {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         flex-flow: row wrap;
     }
- 
- 
-    .stories{
+    .stories {
         flex-wrap: wrap;
         display: inline-flex;
         flex-direction: row;
-      
     }
- 
- 
-    .stories a{
+    .stories a {
         width: 33%;
     }
- 
- 
-    .newsbackground{
+    .newsbackground {
         width: 100%;
-       
     }
- 
- }
- 
- 
+}
+
 //  Destop
-
-
- @media screen and (min-width:1000px){
-
-  .topstories{
+@media screen and (min-width:1000px) {
+    .topstories {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         flex-flow: row wrap;
-     }
- 
-    .stories{
+    }
+    .stories {
         flex-wrap: wrap;
         display: inline-flex;
         flex-direction: row;
-     }
- 
-    .stories a{
+    }
+    .stories a {
         width: 25%;
-     }
- 
-    .newsbackground{
+    }
+    .newsbackground {
         width: 100%;
-       
-     }
- 
- 
- 
- }
+    }
+}

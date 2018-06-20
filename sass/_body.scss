@@ -1,19 +1,16 @@
-html, body{ 
-   
-    display:flex;
-    flex-direction:column;
-   
+html,
+body {
+    display: flex;
+    flex-direction: column;
 }
 
-body{
-   background-color:black;
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    p {
+        color: white;
+        font-family: 'Open Sans'
+    }
 }
-
-
-
-
-
