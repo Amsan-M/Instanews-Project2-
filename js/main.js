@@ -15,7 +15,7 @@ $('select').change(function () {
     //show loading gif
 
     beforeSend: function () {
-      $('.loading').append('<img src=\'/images/ajax-loader.gif\' />').css({
+      $('.loading').append('<img src=\'images/ajax-loader.gif\' />').css({
         'display': 'flex',
         'width': '100%'
       });
