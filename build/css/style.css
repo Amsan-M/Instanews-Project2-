@@ -171,7 +171,8 @@ header {
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    padding: 0px; }
     .choice select {
       width: 60%; } }
 

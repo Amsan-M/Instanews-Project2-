@@ -59,7 +59,7 @@ $('select').change(function () {
 
     $('.logo').animate({
 
-      width: '15rem',
+      width: '10rem',
       height: 'auto',
     });
   } else {
