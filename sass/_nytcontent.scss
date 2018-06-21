@@ -11,10 +11,11 @@
 
 .newstitle {
     height: 35%;
-    height: 35%;
+    height: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 p {
